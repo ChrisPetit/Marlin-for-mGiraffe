@@ -149,7 +149,7 @@ Here are some standard links for getting your machine calibrated:
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
-#define TEMP_SENSOR_BED 0
+#define TEMP_SENSOR_BED 1
 
 // This makes temp sensor 1 a redundant sensor for sensor 0. If the temperatures difference between these sensors is to high the print will be aborted.
 //#define TEMP_SENSOR_1_AS_REDUNDANT
@@ -213,6 +213,8 @@ Here are some standard links for getting your machine calibrated:
 #define  DEFAULT_Ki 1.19
 #define  DEFAULT_Kd 58.14
 
+
+
   // MakerGear
   //#define  DEFAULT_Kp 7.0
   //#define  DEFAULT_Ki 0.1
@@ -253,11 +255,15 @@ Here are some standard links for getting your machine calibrated:
 
   #define PID_BED_INTEGRAL_DRIVE_MAX MAX_BED_POWER //limit for the integral term
 
+#define  DEFAULT_beddKp 40.37
+#define  DEFAULT_bedKi 2.01
+#define  DEFAULT_bedKd 202.38
+
   //120v 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define  DEFAULT_bedKp 10.00
-  #define  DEFAULT_bedKi .023
-  #define  DEFAULT_bedKd 305.4
+//  #define  DEFAULT_bedKp 10.00
+  //#define  DEFAULT_bedKi .023
+  //#define  DEFAULT_bedKd 305.4
 
   //120v 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
