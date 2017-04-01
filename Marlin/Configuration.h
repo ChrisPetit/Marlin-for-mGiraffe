@@ -208,10 +208,15 @@ Here are some standard links for getting your machine calibrated:
   #define K1 0.95 //smoothing factor within the PID
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
-  // mGiraffe
-#define  DEFAULT_Kp 16.66
-#define  DEFAULT_Ki 1.19
-#define  DEFAULT_Kd 58.14
+    // mGiraffe
+  //#define  DEFAULT_Kp 16.66
+  //#define  DEFAULT_Ki 1.19
+  //#define  DEFAULT_Kd 58.14
+  
+  // E3D v6 Hotend
+#define  DEFAULT_Kp 17.98
+#define  DEFAULT_Ki 1.28
+#define  DEFAULT_Kd 63.17
 
 
 
