@@ -725,7 +725,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = true; // set to true to invert the lo
 // default settings
 #define XYZ_FULL_STEPS_PER_ROTATION 400
 #define XYZ_MICROSTEPS 32
-#define XYZ_BELT_PITCH 2.032
+#define XYZ_BELT_PITCH 2
 #define XYZ_PULLEY_TEETH 20
 #define XYZ_STEPS (XYZ_FULL_STEPS_PER_ROTATION * XYZ_MICROSTEPS / double(XYZ_BELT_PITCH) / double(XYZ_PULLEY_TEETH))
 
