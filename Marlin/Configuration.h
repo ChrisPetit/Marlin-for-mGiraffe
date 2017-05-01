@@ -214,9 +214,9 @@ Here are some standard links for getting your machine calibrated:
   //#define  DEFAULT_Kd 58.14
   
   // E3D v6 Hotend
-#define  DEFAULT_Kp 17.98
-#define  DEFAULT_Ki 1.28
-#define  DEFAULT_Kd 63.17
+#define  DEFAULT_Kp 21.53
+#define  DEFAULT_Ki 1.69
+#define  DEFAULT_Kd 68.80
 
 
 
@@ -260,9 +260,9 @@ Here are some standard links for getting your machine calibrated:
 
   #define PID_BED_INTEGRAL_DRIVE_MAX MAX_BED_POWER //limit for the integral term
 
-#define  DEFAULT_beddKp 40.37
-#define  DEFAULT_bedKi 2.01
-#define  DEFAULT_bedKd 202.38
+#define  DEFAULT_beddKp 291.01
+#define  DEFAULT_bedKi 28.46
+#define  DEFAULT_bedKd 743.78
 
   //120v 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
