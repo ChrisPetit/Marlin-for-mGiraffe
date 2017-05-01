@@ -264,6 +264,11 @@ Here are some standard links for getting your machine calibrated:
 #define  DEFAULT_bedKi 28.46
 #define  DEFAULT_bedKd 743.78
 
+standard
+//#define  DEFAULT_beddKp 40.37
+//#define  DEFAULT_bedKi 2.01
+//#define  DEFAULT_bedKd 202.38
+
   //120v 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
 //  #define  DEFAULT_bedKp 10.00
